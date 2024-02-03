@@ -1,0 +1,48 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .image-container img {
+    width: 200px; /* Adjust image size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .textbox input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px; /* Rounded edges */
+    background-color: #f0f0f0; /* Filled with color */
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button-container button {
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px; /* Rounded edges */
+    background-color: #007bff; /* Example button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
