@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g21vS26pB-w?si=PMgAxMajcFKXshSK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[<img src="https://github.com/krisub/wics_hacks_24/assets/20031309/c2b2a95e-e9d5-46d7-937c-6486d7a2c955" width="50%">](https://www.youtube.com/watch?v=g21vS26pB-w)
 
 ![Sign Up](https://github.com/krisub/wics_hacks_24/assets/20031309/3b77aa8e-6f70-4fa1-9b2e-1e97548405ea)
 ![Sign In](https://github.com/krisub/wics_hacks_24/assets/20031309/41eb66f9-fd57-4bbc-bfbd-564e7b01ca07)
