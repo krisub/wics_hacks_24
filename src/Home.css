@@ -36,11 +36,36 @@
   .home-desc-text {
     font-family: 'Inter', sans-serif;
     font-size: 23px;
-    max-width: 2000px;
+    width: fit-content;
+  }
+
+  .all-text-container {
+    display: flex;
+    flex: 1;
+  }
+
+  .part-one {
+    white-space: nowrap;
+    padding-right: 5px;
+    flex: 1;
+  }
+
+  .part-two {
+    white-space: nowrap;
+    padding-left: -2px;
+    flex: 1;
+  }
+  
+  .writer{
+    width: fit-content;
+    font-style: italic;
+  }
+  
+  .home-desc{
+    width: fit-content;
   }
   
   .button-container button {
-    width: 150px;
     height: 40px;
     margin: 0 25px;
     border: 2px solid black;
