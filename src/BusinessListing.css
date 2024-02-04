@@ -1,0 +1,94 @@
+.circle-categories {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+
+}
+
+.circle1-icon, .circle2-icon, .circle3-icon{
+    width: 80px; /* Removed quotes */
+    height: auto; /* Removed quotes */
+    margin-bottom: 5px; /* Adjusted margin to 25px */
+    position: absolute;
+}
+
+.circle1-icon {
+    width: 75px;
+    margin-left: -3px;
+    margin-bottom: -2px;
+}
+
+.circle2-icon, .circle3-icon {
+    margin-bottom: 0px;
+}
+
+.circle2-icon {
+    margin-bottom: -2px;
+}
+.circle3-icon {
+    width: 75px;
+    margin-bottom: -5px;
+}
+
+.circle4-icon {
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+    position: absolute;
+    
+}
+
+.circle5-icon {
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.circle5-text {
+    margin-top: 160px;
+}
+
+.circle5-icon {
+    position: absolute;
+    transform: translateY(-5%)
+}
+
+.circle-text {
+    margin-top: 160px; /* Adjusted margin to 25px */
+}
+
+.circle-1, .circle-2, .circle-3, .circle-5, .circle-6, .circle-4{
+    margin: 0 30px;
+    margin-top: 120px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+}
+
+.search-bar img {
+    width: 400px; /* Decrease the width of the image by 50% */
+    margin-left: -200px;
+}
+
+.business-cards img {
+    position: absolute;
+    margin-top: 175px;
+    margin-left: -1150px;
+}
+
+.product-page-button {
+    position: absolute;
+    transform: translateY(300px) translateX(-400px);
+    width: 10px;
+    opacity: 0;
+}
+
+
+  
+

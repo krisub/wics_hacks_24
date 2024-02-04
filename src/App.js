@@ -4,6 +4,9 @@ import Home from './Home';
 import Login from './Login';
 import Signup from './Signup'
 import BusinessListing from './BusinessListing';
+import BusinessDashboard from './BusinessDashboard';
+import BusinessInfo from './BusinessInfo';
+import AccountDashboard from './AccountDashboard';
 
 function App() {
   const displayLinks = true;
@@ -36,6 +39,24 @@ function App() {
                 <Link to="/signup"></Link>
               </li>
             )}
+            
+            {false && (
+              <li color="#EBACBF">
+                <Link to="/businessDashboard"></Link>
+              </li>
+            )}
+
+{false && (
+              <li color="#EBACBF">
+                <Link to="/businessInfo"></Link>
+              </li>
+            )}
+
+{false && (
+              <li color="#EBACBF">
+                <Link to="/accountDashboard"></Link>
+              </li>
+            )}
           </ul>
         </nav>
         <Routes>
@@ -43,6 +64,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/businessListing" element={<BusinessListing />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path='/businessDashboard' element={<BusinessDashboard />} />
+          <Route path="/businessInfo" element={<BusinessInfo />} />
+          <Route path="/accountDashboard" element={<AccountDashboard />} />
         </Routes>
       </div>
     </Router>

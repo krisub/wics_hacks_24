@@ -1,0 +1,8 @@
+.container-with-img {
+    margin-top: 25px;
+}
+
+.my-cool-button {
+    transform: translateY(-175px);
+    opacity: 0;
+}
