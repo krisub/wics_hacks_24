@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <nav style={{display: 'none'}}>
           <ul>
- {/* Conditionally render the Home link based on isLoggedIn state */}
+ {/* Conditionally render the Home link based on isLoggedIn state. */}
  {false && (
               <li>
                 <Link to="/"></Link>
