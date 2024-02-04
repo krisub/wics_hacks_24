@@ -56,6 +56,7 @@ function Signup() {
           <label>password</label>
           <input className = "myInput"
             placeholder="Enter a password"
+            type = "password"
           />
 
           <label>zipcode</label>
@@ -94,7 +95,7 @@ function Signup() {
 
           <label>password</label>
 
-          <input className = "myInput"
+          <input className = "myInput" type ="password"
 
             placeholder="Enter a password"
 
