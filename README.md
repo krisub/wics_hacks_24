@@ -106,5 +106,3 @@ TODO add code demo
 * [Mansi Madhani](https://github.com/mansimadhani)
 * [Sanika Nandpure](https://github.com/sanikanandpure)
 * [Krithika Subramanian](https://github.com/krisub)
-README.md
-Displaying README.md.
