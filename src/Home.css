@@ -5,44 +5,71 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color:#EBACBF;
   }
   
-  .image-container img {
-    width: 200px; /* Adjust image size as needed */
+  .treatsi-logo img {
+    width: 800px; /* Adjust image size as needed */
     height: auto;
     margin-bottom: 20px;
+    margin-left: 25px;
   }
   
-  .content-container {
+  .home-content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .textbox input {
-    width: 300px;
+  .home-desc {
+    width: 800px;
     height: 40px;
-    padding: 10px;
+    padding: 15px;
+    padding-bottom: 0px;
     border-radius: 20px; /* Rounded edges */
-    background-color: #f0f0f0; /* Filled with color */
-    border: none;
+    border: 2px solid black;
+    background-color: #FDB4BD; /* Filled with color */
     margin-bottom: 20px;
     text-align: center;
+  }
+
+  .home-desc-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    max-width: 2000px;
   }
   
   .button-container button {
     width: 150px;
     height: 40px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 20px; /* Rounded edges */
-    background-color: #007bff; /* Example button color */
-    color: white;
-    font-size: 16px;
+    margin: 0 25px;
+    border: 2px solid black;
+    border-radius: 2000px; /* Rounded edges */
+    background-color: #FF9CA8; /* Example button color */
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     cursor: pointer;
+    width: 115px;
   }
+
+  .signup-button {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .login-button {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+
   
   .button-container button:hover {
-    background-color: #0056b3; /* Darker color on hover */
+    background-color: #FF9CA8; /* Darker color on hover */
+  }
+
+  .shiftup-container {
+    margin-top: -50px;
   }
   

@@ -5,18 +5,20 @@ import './Home.css'; // Import CSS file for styling
 function Home() {
   return (
     <div className="home-container">
+    <div className="shiftup-container">
       <div className="treatsi-logo">
         <img src=".\treatsi_logo.png" />
       </div>
       <div className="home-content-container">
         <div className="home-desc">
-          <div className="home-desc_text">your one stop shop</div>
+          <div className="home-desc-text">find a sweet local spot for your next date{"\n"}and empower local businesses</div>
         </div>
         <div className="button-container">
           <button className="signup-button">sign up</button>
           <button className="login-button">log in</button>
         </div>
       </div>
+    </div>
     </div>
   );
 }
