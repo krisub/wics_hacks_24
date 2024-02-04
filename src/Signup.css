@@ -1,3 +1,4 @@
+/*
 .container-with-img img {
     width: 1100px;
 }
@@ -15,3 +16,122 @@
     width: 200px;
     opacity: 0;
 }
+*/
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40px;
+  }
+
+  .the-sections-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+    margin-left: 30px;
+  }
+
+
+  .left-section,
+  .right-section {
+    text-align: center;
+    flex: 1;
+    padding: 150px;
+    font-family: 'Inter', sans-serif;
+    display: flex; /* Add this to make inner divs flex containers */
+    flex-direction: column;
+  }
+  
+  .divider {
+    height: 65%;
+    width: 0.5px;
+    background-color: #000000;
+  }
+
+  .heading {
+    font-family: 'Inter', sans-serif;
+    margin-top: -700px;
+    margin-left: 570px;
+    position: absolute;
+    display: flex-column;
+  }
+
+  .heading > p {
+    margin-top: -50px;
+  }
+
+
+  
+  .welcome
+  {
+    color: #BD2B60;
+    font-size: 70px;
+  }
+
+  .login-image{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 25px;
+  }
+
+  .rounded-rectangle{
+    background-color: #eaeaea;
+    border-radius: 25px;
+    padding: 40px; /* Increased padding */
+    width: 1203px;
+    height: 852px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 4px 16px;
+    border: 1px solid black;
+    border-radius: 2000px; /* Rounded edges */
+    background-color: #FF9CA8; /* Example button color */
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    margin: 0 25px;
+    margin-left: 90px;
+    margin-top: 10px
+  }
+
+  .businessButton {
+    margin-left: 120px;
+  }
+  input{
+    background-color: #F1DAE3;
+    opacity: 60;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-bottom: 5px; /* Increased margin */
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid black;
+    font-size: 16px;
+  }
+
+  label{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+  }
+
+
+  
