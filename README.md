@@ -27,8 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Treatsi
 
-[treatsi_landing_page.webm](https://github.com/krisub/wics_hacks_24/assets/20031309/dd1c7235-26c9-492d-a0da-91d5bd0f1d63)
-
+https://github.com/krisub/wics_hacks_24/assets/20031309/c2b2a95e-e9d5-46d7-937c-6486d7a2c955
 
 Treatsi is an easy-to-use, accessible web application that allows small businesses to expand their audience while simultaneously prompting its users to enjoy new restaurants! From local cafes to niche dessert shops, there’s a place for everyone to discover delicious food while supporting small, minority-owned shops.
 
