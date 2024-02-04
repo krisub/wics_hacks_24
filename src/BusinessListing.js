@@ -24,36 +24,37 @@ function BusinessListing(){
         <div className = "business-listing-container">
 
             <div className = "search-bar">
-                <img src=".\search_bar_final.png"></img>
+                <img className="search-bar-img" src=".\search_bar_final.png"></img>
+                <img className = "barbie-pfp" src=".\barbiePfp.png" style={{border: 'none'}} onClick={() => window.location.href = './AccountDashboard'} ></img>
             </div>
 
             <div className="circle-categories">
-                <div className="circle-1" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-1" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle1-icon" src="./cafes_icon.png" alt="cafes icon" />
                     <div className='circle-text'>cafes</div>
                 </div>
 
-                <div className="circle-2" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-2" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle2-icon" src="./dessert_icon.png" alt="cafes icon" />
                     <div className='circle-text'>dessert</div>
                 </div>
 
-                <div className="circle-3" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-3" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle3-icon" src="./ice_cream_icon.png" alt="cafes icon" />
                     <div className='circle-text'>ice cream</div>
                 </div>
 
-                <div className="circle-4" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-4" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle4-icon" src="./women_owned_icon.png" alt="cafes icon" />
                     <div className='circle-text'>women owned</div>
                 </div>
 
-                <div className="circle-5" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-5" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle5-icon" src="./lgbt_icon.png" alt="cafes icon" />
                     <div className='circle5-text'>lgbtq+ owned</div>
                 </div>
 
-                <div className="circle-6" style={{ width: '125px', height: '125px', borderRadius: '50%', border:'2px solid black', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="circle-6" style={{ width: '125px', height: '125px', borderRadius: '50%', backgroundColor: '#E999AC', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <img className="circle5-icon" src="./minorities_icon.png" alt="cafes icon" />
                     <div className='circle5-text'>minority owned</div>
                 </div>

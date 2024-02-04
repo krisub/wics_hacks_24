@@ -43,11 +43,6 @@
     flex-direction: column;
   }
   
-  .divider {
-    height: 65%;
-    width: 0.5px;
-    background-color: #000000;
-  }
 
   .heading {
     font-family: 'Inter', sans-serif;
@@ -60,7 +55,6 @@
   .heading > p {
     margin-top: -50px;
   }
-
 
   
   .welcome
@@ -91,7 +85,7 @@
     border: 1px solid #000;
   }
 
-  button {
+  .mybusinesssignupbutton, .myaccountsignupbutton {
     margin-top: 10px;
     padding: 4px 16px;
     border: 1px solid black;
@@ -108,9 +102,10 @@
     margin-top: 10px
   }
 
-  .businessButton {
+  .mybusinesssignupbutton {
     margin-left: 120px;
   }
+
   input{
     background-color: #F1DAE3;
     opacity: 60;
