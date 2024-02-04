@@ -33,7 +33,7 @@ function Signup() {
 
         <div className='heading'>
 
-      
+
           <h1 className='welcome'>welcome!</h1>
           <p>Please fill in the information to signup below.</p>
 
@@ -43,27 +43,27 @@ function Signup() {
         <div className="left-section">
           {/* User Signup Fields */}
           <label>name</label>
-          <input
+          <input className = "myInput"
             placeholder="Enter your name"
           />
 
           <label>email</label>
 
-          <input
+          <input className = "myInput"
             placeholder="Enter your email"
           />
 
           <label>password</label>
-          <input
+          <input className = "myInput"
             placeholder="Enter a password"
           />
 
           <label>zipcode</label>
-          <input
+          <input className = "myInput"
             placeholder="Enter your zipcode"
           />
 
-          <button>sign up as a user</button>
+          <button className="myaccountsignupbutton" onClick={() => window.location.href = './AccountDashboard'}>sign up as a user</button>
         </div>
 
 
@@ -78,7 +78,7 @@ function Signup() {
 
           <label>business name</label>
 
-          <input
+          <input className = "myInput"
 
             placeholder="Enter your business name"
 
@@ -86,7 +86,7 @@ function Signup() {
 
           <label>business email</label>
 
-          <input
+          <input className = "myInput"
 
             placeholder="Enter your business email"
 
@@ -94,7 +94,7 @@ function Signup() {
 
           <label>password</label>
 
-          <input
+          <input className = "myInput"
 
             placeholder="Enter a password"
 
@@ -102,13 +102,13 @@ function Signup() {
 
           <label>address</label>
 
-          <input
+          <input className = "myInput"
 
             placeholder="Enter your address "
 
           />
 
-          <button className="businessButton">sign up as a business</button>
+          <button className="mybusinesssignupbutton" onClick={() => window.location.href = './BusinessDashboard'}>sign up as a business</button>
 
         </div>
 
