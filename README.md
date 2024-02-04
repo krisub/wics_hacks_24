@@ -75,6 +75,12 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+
+
+https://github.com/krisub/wics_hacks_24/assets/20031309/d1f401f2-4b4f-4fa6-970f-872ca6e49edc
+
+
+
 ![Sign Up](https://github.com/krisub/wics_hacks_24/assets/20031309/3b77aa8e-6f70-4fa1-9b2e-1e97548405ea)
 ![Sign In](https://github.com/krisub/wics_hacks_24/assets/20031309/41eb66f9-fd57-4bbc-bfbd-564e7b01ca07)
 ![Search Engine](https://github.com/krisub/wics_hacks_24/assets/20031309/cdfbee8b-d0d0-48fd-a028-b6ad3f5fa343)
