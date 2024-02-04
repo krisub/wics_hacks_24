@@ -26,8 +26,8 @@ function Home() {
             </div>
         </div>
         <div className="button-container">
-          <button className="signup-button">sign up</button>
-          <button className="login-button">log in</button>
+          <button className="signup-button" onClick={() => window.location.href = './Signup'}>sign up</button>
+          <button className="login-button" onClick={() => window.location.href = '/Login'}>log in</button>
         </div>
       </div>
     </div>
